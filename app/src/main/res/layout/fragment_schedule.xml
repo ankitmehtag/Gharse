@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <com.moos.library.CircleProgressView
+                android:id="@+id/progressView_circle"
+                android:layout_width="200sp"
+                android:layout_gravity="center"
+                android:layout_height="200sp"
+                android:layout_marginTop="12dp"
+                app:start_progress="0"
+                app:end_progress="100"
+                app:progressTextColor="#00ffffff"
+                app:start_color="@color/purple_end"
+                app:end_color="@color/purple_start"
+                app:circleBroken="true"
+                app:isTracked="true"
+                app:track_width="26dp"/>
+        <TextView
+                android:translationY="-120dp"
+                android:text="DEACTIVATED"
+                android:textSize="15sp"
+                android:id="@+id/status"
+                android:textColor="#ff3030"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <Button
+                android:translationY="-50dp"
+                android:text="START"
+                android:textColor="#00aaff"
+                android:textSize="18sp"
+                android:id="@+id/start_btn"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</ScrollView>

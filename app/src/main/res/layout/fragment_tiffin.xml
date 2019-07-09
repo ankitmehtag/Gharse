@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:custom="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/tools">
+
+    <LinearLayout
+            android:layout_marginEnd="8sp"
+            android:layout_marginStart="8sp"
+            android:layout_marginLeft="8sp"
+            android:layout_marginRight="8sp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_margin="8sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Sunday"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"/>
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:layout_weight="1"
+                    android:id="@+id/sun_typ"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Food Time"
+                    app:met_floatingLabel="normal"
+                    android:textColorHint="#CFD8DC"/>
+
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                    android:id="@+id/btn_snday"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    custom:pb_colorComplete="@color/green_complete"
+                    custom:pb_colorNormal="@color/blue_normal"
+                    custom:pb_colorPressed="@color/blue_pressed"
+                    custom:pb_colorProgress="@color/purple_progress"
+                    custom:pb_textComplete="Success"
+                    custom:pb_textProgress="Loading"
+                    custom:pb_textError="Error"
+                    custom:pb_colorError="@color/red_error"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_margin="8sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Monday"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"/>
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:layout_weight="1"
+                    android:id="@+id/mon_typ"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Food Time"
+                    app:met_floatingLabel="normal"
+                    android:textColorHint="#CFD8DC"/>
+
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                    android:id="@+id/btn_mnday"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    custom:pb_colorComplete="@color/green_complete"
+                    custom:pb_colorNormal="@color/blue_normal"
+                    custom:pb_colorPressed="@color/blue_pressed"
+                    custom:pb_colorProgress="@color/purple_progress"
+                    custom:pb_textComplete="Success"
+                    custom:pb_textProgress="Loading"
+                    custom:pb_textError="Error"
+                    custom:pb_colorError="@color/red_error"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_margin="8sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Tuesday"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"/>
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:layout_weight="1"
+                    android:id="@+id/tue_typ"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Food Time"
+                    app:met_floatingLabel="normal"
+                    android:textColorHint="#CFD8DC"/>
+
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                    android:id="@+id/btn_tuday"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    custom:pb_colorComplete="@color/green_complete"
+                    custom:pb_colorNormal="@color/blue_normal"
+                    custom:pb_colorPressed="@color/blue_pressed"
+                    custom:pb_colorProgress="@color/purple_progress"
+                    custom:pb_textComplete="Success"
+                    custom:pb_textProgress="Loading"
+                    custom:pb_textError="Error"
+                    custom:pb_colorError="@color/red_error"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_margin="8sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Wednesday"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"/>
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:layout_weight="1"
+                    android:id="@+id/wed_typ"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Food Time"
+                    app:met_floatingLabel="normal"
+                    android:textColorHint="#CFD8DC"/>
+
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                    android:id="@+id/btn_weday"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    custom:pb_colorComplete="@color/green_complete"
+                    custom:pb_colorNormal="@color/blue_normal"
+                    custom:pb_colorPressed="@color/blue_pressed"
+                    custom:pb_colorProgress="@color/purple_progress"
+                    custom:pb_textComplete="Success"
+                    custom:pb_textProgress="Loading"
+                    custom:pb_textError="Error"
+                    custom:pb_colorError="@color/red_error"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_margin="8sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Thursday"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"/>
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:layout_weight="1"
+                    android:id="@+id/thu_typ"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Food Time"
+                    app:met_floatingLabel="normal"
+                    android:textColorHint="#CFD8DC"/>
+
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                    android:id="@+id/btn_thday"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    custom:pb_colorComplete="@color/green_complete"
+                    custom:pb_colorNormal="@color/blue_normal"
+                    custom:pb_colorPressed="@color/blue_pressed"
+                    custom:pb_colorProgress="@color/purple_progress"
+                    custom:pb_textComplete="Success"
+                    custom:pb_textProgress="Loading"
+                    custom:pb_textError="Error"
+                    custom:pb_colorError="@color/red_error"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_margin="8sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Friday"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"/>
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:layout_weight="1"
+                    android:id="@+id/fri_typ"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Food Time"
+                    app:met_floatingLabel="normal"
+                    android:textColorHint="#CFD8DC"/>
+
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                    android:id="@+id/btn_frday"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Add"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    custom:pb_colorComplete="@color/green_complete"
+                    custom:pb_colorNormal="@color/blue_normal"
+                    custom:pb_colorPressed="@color/blue_pressed"
+                    custom:pb_colorProgress="@color/purple_progress"
+                    custom:pb_textComplete="Success"
+                    custom:pb_textProgress="Loading"
+                    custom:pb_textError="Error"
+                    custom:pb_colorError="@color/red_error"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_margin="8sp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:text="Saturday"
+                    android:fontFamily="sans-serif"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content"/>
+
+            <com.weiwangcn.betterspinner.library.material.MaterialBetterSpinner
+                    android:id="@+id/sat_typ"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Food Time"
+                    app:met_floatingLabel="normal"
+                    android:textColorHint="#CFD8DC"/>
+
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                    android:id="@+id/btn_saday"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Add "
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    custom:pb_colorComplete="@color/green_complete"
+                    custom:pb_colorNormal="@color/blue_normal"
+                    custom:pb_colorPressed="@color/blue_pressed"
+                    custom:pb_colorProgress="@color/purple_progress"
+                    custom:pb_textComplete="Success"
+                    custom:pb_textProgress="Loading"
+                    custom:pb_textError="Error"
+                    custom:pb_colorError="@color/red_error"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
